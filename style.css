@@ -67,3 +67,20 @@ html, body {
 .navbar-toggler {
   background-color: white;
 }
+
+
+
+.btn-custom {
+  background-color:#0a2a66;
+  color:white;
+  transition:0.3s;
+}
+
+.btn-custom:hover {
+  background-color:#f39c12;
+  color:black;
+  transform:scale(1.05);
+
+}
+
+
