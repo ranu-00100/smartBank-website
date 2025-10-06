@@ -1,8 +1,13 @@
-/*margin:0;
-  padding:0;
-*/
+/* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}*/
 body{
     font-family:poppins,sans-serif;
+    overflow-x: hidden; 
+  box-sizing: border-box;
 }
 
 /* Navbar hover */
@@ -63,9 +68,12 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+ 
 }
 .navbar-toggler {
   background-color: white;
+  color :white ;
 }
 
 
@@ -82,5 +90,109 @@ html, body {
   transform:scale(1.05);
 
 }
+#img-fluid{
+  height: 800px;
+}
+#heading-div{
+  position:relative;
+  top:130px;
+  border-left:3px solid red;
+  padding:0px 4px;
+  font-family:Carter One;
+
+}
+#sub-heading{
+  position:relative;
+  bottom:260px;
+  font-size:56px;
+  line-height: 1;
+  color:#0a2a66;
 
 
+}
+
+#personal-heading{
+  font-family:Carter One;
+  color:rgb(142, 140, 138);
+  border-left:3px solid red;
+  padding:0px 4px;
+}
+#second-heading{
+  font-size:46px;
+  color:#0a2a66;
+}
+
+#download-section{
+  margin-left:200px;
+  margin-right:200px;
+  position:relative;
+   bottom:60px;
+   border-radius: 5px;
+} 
+#sub-text{
+  position:relative;
+  bottom:250px;
+
+}
+
+#nir-banking{
+  position:relative;
+  border-left:3px solid red;
+  padding:0px 4px;
+  font-family:Carter One;
+  font-weight: 600;
+}
+#nir-second-heading{
+   font-size:50px;
+  color:#0a2a66;
+
+}
+
+.icon-box {
+  background-color: #0a2a66; 
+  color: white; 
+  width: 50%;   
+  height: 80px; 
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  margin-left:90px;
+}
+
+
+.click-scale:hover {
+ transform: scale(1.05);
+  transition: 0.3s;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+
+}
+
+
+/*NIR section*/
+.circle-item {
+    width: 250px;          
+    height: 250px;         
+    border-radius: 50%;   
+    background-color: #0a2a66;
+    color: white;         
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+.circle-item p:first-child {
+    font-weight: bold;
+    font-size: 18px;
+}
+.circle-item p:last-child {
+    font-size: 14px;
+}
+
+form.small-input{
+  width:80%;
+}

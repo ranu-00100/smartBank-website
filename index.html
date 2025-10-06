@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>smartBank</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
   <!--link css-->
   <link rel="stylesheet" href="style.css">
   <!--bootstrap link-->
@@ -16,325 +19,794 @@
 
   <!-- Owl Carousel CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
 </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-lg fixed-top " style="background-color:#0a2a66;">
+  <nav class="navbar navbar-expand-lg fixed-top " style="background-color:white;">
     <div class="container">
-      <img src="img/logo2.jpg" style="height:30px; margin-right:3px; border-radius:50px;">
-      <a class="navbar-brand fw-bold" href="#" style="color:white;">SmartBank</a>
+      <img src="img/logo2.jpg" style="height:50px; margin-right:3px; border-radius:50px;">
+      <a class="navbar-brand fw-bold" href="#" style="color:#1a49a0; font-size: 26px; line-height: 1;  ">Aarth<span
+          style="color:#0a2a66;">vini Bank</span> </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a style="color:white;" class="nav-link active" href="#">Home</a></li>
-          <li class="nav-item"><a style="color:white;" class="nav-link" href="#">About</a></li>
-          <li class="nav-item"><a style="color:white;" class="nav-link" href="#">Services</a></li>
-         <li class="nav-item"><a  style="color:white;" class="nav-link" href="rates.html">Rates</a> 
-          <li class="nav-item"><a style="color:white;" class="nav-link" href="#">Contact</a></li>
-          <li class="nav-item"><a style="color:white;" class="nav-link" href="login.html">Login</a></li>
-          <li class="nav-item"><a style="color:white;" class="btn btn-light text-primary ms-2" href="#">Sign Up</a></li>
+        <ul class="navbar-nav ms-auto gap-1">
+          <li class="nav-item"><a style="color:#0a2a66;" class="nav-link active" href="index.html"> <i
+                class="fa-solid fa-house me-2 ms-2"></i>Home</a></li>
+          <li class="nav-item"><a style="color:#254379;" class="nav-link" href="#"><i
+                class="fa-solid fa-user me-2 ms-3"></i>About</a></li>
+          <li class="nav-item"><a style="color:#0a2a66;" class="nav-link" href="#"> <i
+                class="fa-solid fa-handshake me-2 ms-3"></i>Services</a></li>
+          <li class="nav-item"><a style="color:#0a2a66;" class="nav-link" href="NIR.html">
+              <i class="fa-solid fa-plane me-2 ms-2"></i>NRI</a>
+          <li class="nav-item"><a style="color:#0a2a66;" class="nav-link" href="#"> <i
+                class="fa-solid fa-phone me-2 ms-3"></i>Contact</a></li>
+          <li class="nav-item"><a style="color:#0a2a66;" class="nav-link" href="login.html"> <i
+                class="fa-solid fa-right-to-bracket me-2 ms-2"></i>Login</a></li>
+          <div class="btn-div d-flex " style="margin-left:60px;">
+            <li class="nav-item"><a style="background-color:#0a2a66; color:white;" class="btn ms-2" href="#">Reach
+                us</a>
+            </li>
+            <li class="nav-item"><a style="border:2px solid #0a2a66;" class="btn btn-light text-primary ms-2"
+                href="#">Sign Up</a>
+            </li>
+          </div>
         </ul>
       </div>
     </div>
   </nav>
+  <!--hearder section start-->
+  <header class="header-section" style="margin-top:100px;">
+    <div class="container">
+      <div class="owl-carousel owl-theme">
+        <!--frist slide-->
+        <div class="item"
+          style="background-image: url(img/front60.jpg); background-repeat:no-repeat; background-size:cover; position:relative; height: 300px;;">
+          <div class="container">
+            <div class="row align-items-center d-flex flex-column flex-lg-row">
+              <div class="text-center " style="margin-top:100px; margin-bottom:250px;">
+                <h1 style="text-shadow:  2px 2px 9px white,4px 4px 3px #0a2a66; font-size: 56px; "><b>Welcome to <span
+                      style="color:#0a2a66;">Aarth</span>vini Bank</b></h1>
+                <p style="font-size:26px; color:#333;  font-family:Carter One; margin-top:20px;">Your Trusted Partner
+                  in<span style="color:#1e57c0;"> Financial </span> Growth</p>
+                <a href="#" class="btn-btn "
+                  style="margin-top:150px; background-color:#0a2a66;color:white; text-decoration: none; padding:7px; border-radius: 10px;">Explore
+                  now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--second slide-->
+        <div class="item">
+          <img src="img/hero section image 2.png" alt="image">
+        </div>
 
-  <!--section -->
-
-  <section class="py-5 bg-light">
-    <div class="container d-flex flex-lg-row flex-column  align-items-center mt-5">
-      <!--left side text-->
-      <div class="text-center text-lg-start col-lg-6">
-        <h1 class="fw-bold">Welcome to <span class="text-primary" data-aos="fade-right">SmartBank</span></h1>
-            <p class="text-muted fs-5">Secure • Reliable • Customer-Friendly Banking</p>
-            <p class="fs-5">At SmartBank, we make banking simple and easy for everyone.From saving money to getting
-              loans and managing business accounts,we provide secure and reliable services to help you grow.</p>
-
-            <a href="#" class="btn btn-primary btn-lg mt-3">Get start</a>
-      </div>
-
-      <!--right slide image-->
-      <div class="col-lg-6 text-center text-lg-start">
-        <img src="img/homepage .jpg" style="height:400px;"  class="ms-lg-5"alt="banking">
       </div>
     </div>
-  </section>
+  </header>
 
 
-  <!--About section-->
+  <!---header section end-->
+
+  <!--About section start-->
   <section id="about" class="py-5 bg-light" style="overflow:hidden;">
     <div class="container">
       <div class="row align-items-center d-flex flex-column flex-lg-row ">
         <div class="col-lg-6 text-lg-start ">
-          <img src="img/about section1.jpg" alt="about img" style="height:400px; margin-left:60px;">
+          <img src="img/about section1.jpg" alt="about img" style="height:400px;">
         </div>
         <div class="col-lg-6  mt-4 ">
-          <h2 class="mb-3" style="color:#0a2a66; font-family: Poppins,sans-serif; font-weight:700">About SmartBank</h2>
-          <p>SmartBank is built on the principles of trust, transparency, and technology. Our mission is to make banking
+          <h2 class="mb-3" style="color:#0a2a66; font-family: Poppins,sans-serif; font-weight:700">About Aarthvini Bank
+          </h2>
+          <p style="font-family:Carter One; font-size: 19px; ">Aarthvini bank is built on the principles of trust,
+            transparency, and technology. Our mission is to make
+            banking
             convenient, fast, and secure for individuals and businesses alike.</p>
-          <p>With innovative solutions, modern digital tools, and a customer-first approach, we aim to redefine the way
+          <p style="font-family:Carter One; font-size: 19px;">With innovative solutions, modern digital tools, and a
+            customer-first approach, we aim to redefine the
+            way
             people experience banking. Whether it's managing savings, applying for loans, or business banking —
-            SmartBank is your reliable financial partner.</p>
+            Aarthvini Bank is your reliable financial partner.</p>
           <a href="#" class="btn btn-primary mt-2">Learn More</a>
         </div>
       </div>
     </div>
   </section>
+  <!--about section end-->
+  <!---main heading section start -->
 
-
-  <!-- Services Section -->
-<section id="services">
-  <div class="container">
-    <div class="d-flex justify-content-center align-items-center mb-4">
-      <h2 class="me-2 mb-0" style="color:#0a2a66;">Our Services</h2>
-      <i class="bi bi-briefcase-fill fs-2 text-primary"></i>
-    </div>
-
-    <div class="row g-4 text-center">
-      <div class="col-md-3">
-        <div class="service-card p-4 shadow-sm">
-          <i class="bi bi-person-circle fs-1 text-primary mb-3"></i>
-          <h5>Insurance</h5>
-          <p>Manage your personal finances with ease</p>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="service-card p-4 shadow-sm">
-          <i class="bi bi-building fs-1 text-success mb-3"></i>
-          <h5>Business Banking</h5>
-          <p>Solutions tailored for business needs</p>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="service-card p-4 shadow-sm">
-          <i class="bi bi-cash-coin fs-1 text-warning mb-3"></i>
-          <h5>Loans</h5>
-          <p>Flexible loan options to suit your needs</p>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="service-card p-4 shadow-sm">
-          <i class="bi bi-credit-card-fill fs-1 text-danger mb-3"></i>
-          <h5>Credit Cards</h5>
-          <p>Enjoy rewards and benefits with our credit cards</p>
-        </div>
+  <section class="py-5 mt-1 mb-5">
+    <div class="contianer">
+      <div class="text-center fs-5 ">
+        <h1>Trusted by all, banking for all</h1>
+        <p>Aarthvini, Bank brings you a bouquet of services and products for your varied needs.</p>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+  <!---main heading section end-->
 
-
-<!-- Business Section Start -->
-<section id="business-banking" class="py-5" style="background: url('img/assets\ \ 1.jpg') center/cover no-repeat; position: relative; color: white;">
-  <!-- Overlay for dark effect -->
-  <div style="background: rgba(0,0,0,0.6); padding: 60px 0;">
+  <!-- Services Section start -->
+  <section id="services">
     <div class="container">
-      <div class="row justify-content-end">
-        
-        <!-- Right Side Text -->
-        <div class="col-lg-6 text-start">
-          <h2 class="fw-bold mb-3">Dream Business <br><span style="color:#ffd700;">Start with Smart Bank</span></h2>
-          <p class="fs-5">Whether you are launching a startup, expanding your partnership,  
-          or managing a large enterprise – Smart Bank is your trusted partner  
-          in every stage of your business journey.</p>
-          <a href="#" class="btn btn-custom btn-warning mt-3">Get Started</a>
-        </div>
+      <div class="d-flex justify-content-center align-items-center mb-4">
+        <h2 class="me-2 mb-0" style="color:#0a2a66;">Our Services</h2>
+        <i class="bi bi-briefcase-fill fs-2 text-primary"></i>
+      </div>
 
+      <div class="row g-4 text-center">
+        <div class="col-md-3">
+          <div class="service-card p-4 shadow-sm">
+            <i class="bi bi-person-circle fs-1 text-primary mb-3"></i>
+            <h5>Insurance</h5>
+            <p>Manage your personal finances with ease</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="service-card p-4 shadow-sm">
+            <i class="bi bi-building fs-1 text-success mb-3"></i>
+            <h5>Business Banking</h5>
+            <p>Solutions tailored for business needs</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="service-card p-4 shadow-sm">
+            <i class="bi bi-cash-coin fs-1 text-warning mb-3"></i>
+            <h5>Loans</h5>
+            <p>Flexible loan options to suit your needs</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="service-card p-4 shadow-sm">
+            <i class="bi bi-credit-card-fill fs-1 text-danger mb-3"></i>
+            <h5>Credit Cards</h5>
+            <p>Enjoy rewards and benefits with our credit cards</p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- Business Section End -->
+  </section>
+  <!---severice section end-->
 
-
-<!-- Digital Banking Section -->
-<section class="py-5" style="background: url('img/model\ 4.jpg') center/cover no-repeat; position: relative; color: white;">
-   <!-- Overlay for dark effect -->
-  <div style="background: rgba(0,0,0,0.6); padding: 60px 0;">
-  <div class="container">
+  <!--personal bussnies section start-->
+  <section class="py-5 "
+    style="background-image: url(img/assets\ \ 1\ \(1\).jpg); background-repeat:no-repeat; background-size:cover; background-position: relative; overflow: hidden;">
+    <div class="container">
       <div class="row">
-        
-        <!-- Left Side Text -->
-        <div class="col-lg-6 text-start">
-          <h2 class="fw-bold mb-3">Smart Banking <br><span style="color:#ffd700;">Anytime, Anywhere</span></h2>
-          <p class="fs-5">Manage your finances with our secure digital platform.  
-          From fund transfers to bill payments – banking is now just a click away.</p>
-          <a href="#" class="btn btn-custom btn-info mt-3">Explore Now</a>
+        <!--text left side-->
+        <div class=" col-lg-6 text-start" style="margin-top:70px;">
+          <h4 id="personal-heading">Personal Banking</h4>
+          <h1 id="second-heading">Bank when you want,<br>the way you want​​</h1>
+          <p>Easy accounts, deposits, cards, loans and insurance for you and your family</p>
         </div>
 
-      </div>
-    </div>
-  </div>
-</section>
+        <div class="row mt-5">
+          <!--card 1 -->
+          <div class="col-md-4">
+            <div class="card click-scale">
+              <img src="img/logo10.png" alt="personal-bussiness" class="mx-auto d-block mt-3">
+              <div class="card-body">
+                <h5 class="card-title text-center "><b>Savings Accounts</b></h5>
+                <p class="card-text text-center mt-4" style="font-size:14px;">Use our acttrative interest rates on
+                  your
+                  saving to step clouser to your dreams</p>
+                <div class="justify-content-center gap-3 d-flex">
+                  <a href="#" class="card-btn click-scale"
+                    style="background-color:#1a49a0;color:white; text-decoration:none; padding:6px;border-radius:5px; font-size: 13px;">Open
+                    one account</a>
+                  <a href="#" class="second-btn click-scale"
+                    style="color:#0b2654; border: 2px solid #0b2654; text-decoration:none; padding:3px; border-radius:5px; font-size:15px;">Learn
+                    more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--card 2-->
+          <div class="col-md-4">
+            <div class="card click-scale">
+              <img src="img/logo40.png" alt="card-2" class="mx-auto d-block mt-3">
+              <div class="card-body">
+                <h5 class="card-title text-center"><b>Home Loans</b></h5>
+                <p class="card-text text-center mt-4" style="font-size: 14px;">Wake up in your our dream home with
+                  easy-to-avail home Loans</p>
+                <div class="d-flex justify-content-center gap-3">
+                  <a href="#" class="card-btn click-scale"
+                    style="background-color:#1a49a0;color:white; text-decoration:none; padding:6px;border-radius:5px; font-size: 13px;">Calculate
+                    EMI</a>
+                  <a href="home loan.html" class="card-btn click-scale"
+                    style="color:#0b2654; border: 2px solid #0b2654; text-decoration:none; padding:3px; border-radius:5px; font-size:15px;">View
+                    details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--card 3-->
+          <div class="col-md-4">
+            <div class="card click-scale">
+              <img src="img/logo30.png" alt="card-image" class="mx-auto d-block mt-3">
+              <div class="card-body">
+                <h5 class="card-title text-center"><b>Gold Loans</b></h5>
+                <p class="card-text text-center mt-4" style="font-size: 14px;">Use your gold safely to fulfil your
+                  financial needs immediately</p>
+                <div class="justify-content-center d-flex gap-3">
+                  <a href="#" class="card-btn click-scale"
+                    style="background-color:#1a49a0;color:white; text-decoration:none; padding:6px;border-radius:5px; font-size: 13px;">Apply
+                    now</a>
+                  <a href="gold loan.html" class="card-btn click-scale"
+                    style="color:#0b2654; border: 2px solid #0b2654; text-decoration:none; padding:3px; border-radius:5px; font-size:15px;">View
+                    details</a>
+                </div>
+              </div>
 
-<br>
-<br>
-<br>
-
-
-<!-- Education Loan Section -->
-<section class="py-5" style="background: url('img/education.jpg') center/cover no-repeat; position: relative; color: white;">
-  <!-- Overlay for dark effect -->
-  <div style="background: rgba(0,0,0,0.6); padding: 60px 0;">
-  <div class="container">
-      <div class="row justify-content-start">
-        
-        <!-- Right Side Text -->
-        <div class="col-lg-6 text-start">
-          <h2 class="fw-bold mb-3">Study Smart <br><span style="color:#ffd700;">With Education Loans</span></h2>
-          <p class="fs-5">Invest in your future with Smart Bank’s education loans.  
-          Flexible repayment options, low interest rates, and global study support  
-          to help you achieve your dreams.</p>
-          <a href="#" class="btn  btn-custom btn-warning mt-3">Apply Now</a>
+            </div>
+          </div>
         </div>
+        <!--line -->
+        <p class="mt-2" style="font-family:Carter One; color:#0b2654; border-left:3px solid red;">View all personal
+          offerings <i class="bi bi-arrow-right"></i></p>
+
+
 
       </div>
-    </div>
-  </div>
-</section>
-
-<!--Car loan section-->
-<section class="py-5 mt-5" style="background-image: url(img/car\ loan.jpg);background-size:cover;background-repeat: no-repeat;background-position: relative;">
-  <div class="contanier">
-      <div class="row justify-content-start">
-         
-        <!---left side text-->
-        <div class="col-lg-6 text-start ms-lg-5">
-           <h2 class="fw-bold mb-3">Drive Your Dreams <br><span style="color:#ffd700;">With SmartBank Car Loans</span></h2>
-          <p class="fs-5">Flexible financing options to help you buy your dream car. Competitive interest rates, easy approvals, and personalized plans just for you.</p>
-          <a href="#" class=" btn  btn-custom btn-warning mt-3">Apply now</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!--home loan section-->
-<section class="py-5 mt-5" style="background-image:url(img/home\ loan.jpg);background-size:cover;background-position:relative;background-repeat: no-repeat;">
-  <div class="container">
-    <div class="row justify-content-start">
-
-      <!--left side text-->
-    <div class="col-lg-6 text-start">
-       <h2 class="fw-bold mb-3" style="color:white;">Build Your Future <br><span style="color:#ffd700;">With SmartBank Home Loans</span></h2>
-          <p class="fs-5" style="color:white;">Make your dream home a reality with flexible financing options. Competitive interest rates, quick approvals, and personalized plans designed just for you.</p>
-            <a href="#" class=" btn btn-custom btn-warning mt-3">Apply now</a>
-    </div>
-    
-    </div>
-  </div>
-
-</section>
-<!--section end -->
-
-<!--reviews section-->
-<section id="reviews" class="py-5 bg-light" style="background-color:#f8f9fa; margin-right:auto;">
-  <div class="container">
-    <h2 class="text-center mb-5 " style="color:#0a2a66; font-weight: 600;font-family: Poppins,sans-serif;">What our customers say</h2>
-    <div class="justify-content-center gap-2">
-      <!--reivew card-->
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col-md-4">
-        <div class="card h-20 text-center shadow-sm p-3 rounded">
-          <img src="img/model1.jpg" class="card-img-top mx-auto mt-3" alt="Customer 1" style="width:150px;height:150px;">
-          <div class="card-body">
-            <p class="card-text">I got a loan approved within hours! SmartBank really cares about its customers."</p>
-            <h6 class="card-subtitle mt-3 mb-0" style="color:#0a2a66;"> John Doe</h6>
+  </section>
+   <!--short download-->
+    <section class="py-2" id="download-section" style="background-color: #f1ecdc;   ">
+      <div class="container">
+        <div class="row align-items-center flex-column flex-lg-row">
+          <div class="col-lg-4 text-lg-start">
+            <img src="img/smartbank.png" alt="smart-bank">
+          </div>
+          <div class="col-lg-4  text-center ">
+            <p style="font-size: 23px;">Download the all-new</p>
+            <h2 style="line-height: 2px;"><b>mAarthvini app</b></h2>
+          </div>
+          <div class="col-lg-4  text-end">
+            <a href="#" class="download-btn click-scale"
+              style="background-color:#1a49a0;color:white; text-decoration:none; padding:6px;border-radius:5px; font-size: 18px;">Download</a>
           </div>
         </div>
       </div>
-      <!--review 2-->
-      <div class="col-md-4">
-        <div class="card h-20 text-center shadow-sm p-3 rounded">
-          <img src="img/model2.jpg" class="card-img-top  mx-auto mt-3" alt="Customer 1" style="width:150px;height:150px;">
-          <div class="card-body">
-            <p class="card-text">""SmartBank makes managing my finances so easy! I love their mobile app.</p>
-            <h6 class="card-subtitle mt-3 mb-0" style="color:#0a2a66;">payal patel</h6>
-          </div>
+    </section>
+
+    <!--bussiness banking section-->
+
+    <section class="py-5 " style="margin-top:-150px;">
+      <div class="row align-items-center d-flex flex-column flex-lg-row">
+        <div class="col-lg-6 text-lg-start">
+          <img src="img/assets  1.jpg" id="img-fluid" alt="business-image">
+        </div>
+        <div class="col-lg-6 ">
+          <h4 style="color:rgb(142, 140, 138); margin-bottom:400px;" id="heading-div">Business Banking</h4>
+          <h4 id="sub-heading">By growing your<br> business, you help<br> everyone win​</h4>
+          <p id="sub-text">Get accounts, loans, tools and services for your business, no matter the size!</p>
         </div>
       </div>
-      <!--review 3-->
-      <div class="col-md-4">
-        <div class="card h-20 text-center shadow-sm p-3 rounded">
-          <img src="img/model3.jpg" class="card-img-top  mx-auto mt-3" alt="Customer 1" style="width:150px;height:150px;">
-          <div class="card-body">
-            <p class="card-text">""The customer service is top-notch. Highly recommended!"</p>
-            <h6 class="card-subtitle mt-3 mb-0" style="color:#0a2a66;"> himanshu choudary</h6>
+      <!--card -->
+      <div class="row ms-5 me-5" style="position:relative; margin-top:-300px;">
+        <!--card 1-->
+        <div class="col-lg-4">
+          <div class="card click-scale">
+            <img src="img/logo20.png" alt="smart-bank" class="mx-auto d-block mt-3">
+            <div class="card-body">
+              <h5 class="card-title text-center fs-5 "><b>Aspiring bussiness Loan</b> </h5>
+              <p class="card-text mt-4 text-center" style="font-size:14px;">there are a big drema behind every small
+                enterprise.Get the support to achieve them
+              </p>
+              <div class="justify-content-center d-flex gap-3">
+                <a href="#" class="card-btn click-scale"
+                  style="background-color:#1a49a0;color:white; text-decoration:none; padding:6px;border-radius:5px; font-size: 13px;">Apply
+                  now</a>
+                <a href="#" class="second-card click-scale"
+                  style="color:#0b2654; border: 2px solid #0b2654; text-decoration:none; padding:3px; border-radius:5px; font-size:15px;">
+                  View detaills</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--card 2-->
+        <div class="col-lg-4">
+          <div class="card click-scale">
+            <img src="img/logo20.png" alt="smart-bank" class="mx-auto d-block mt-3">
+            <div class="card-body">
+              <h5 class="card-title text-center fs-5"><b>medium and large bussiness </b></h5>
+              <p class="card-text mt-4 text-center" style="font-size:14px;">there are a big drema behind every small
+                enterprise.Get the support to achieve them
+              </p>
+              <div class="justify-content-center d-flex gap-3">
+                <a href="#" class="card-btn click-scale"
+                  style="background-color:#1a49a0;color:white; text-decoration:none; padding:6px;border-radius:5px; font-size: 13px;">Apply
+                  now</a>
+                <a href="#" class="second-card click-scale"
+                  style="color:#0b2654; border: 2px solid #0b2654; text-decoration:none; padding:3px; border-radius:5px; font-size:15px;">
+                  View detaills</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--card 3 -->
+        <div class="col-lg-4">
+          <div class="card click-scale">
+            <img src="img/logo20.png" alt="smart-bank" class="mx-auto d-block mt-3">
+            <div class="card-body">
+              <h5 class="card-title text-center fs-5"><b>Current account</b></h5>
+              <p class="card-text mt-4 text-center" style="font-size:14px;">there are a big drema behind every small
+                enterprise.Get the support to achieve them
+              </p>
+              <div class="justify-content-center d-flex gap-3 ">
+                <a href="#" class="card-btn  click-scale"
+                  style="background-color:#1a49a0;color:white; text-decoration:none; padding:6px;border-radius:5px; font-size: 13px;">Apply
+                  now</a>
+                <a href="#" class="second-card  click-scale"
+                  style="color:#0b2654; border: 2px solid #0b2654; text-decoration:none; padding:3px; border-radius:5px; font-size:15px;">
+                  View detaills</a>
+              </div>
+            </div>
           </div>
         </div>
+
+
       </div>
-<!--review card end-->
-    </div>
-  </div>
-</section>
-
-<!-- Footer Section  start-->
-<footer style="background-color: #0b2654; color: white; padding: 40px 0;">
-  <div class="container" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;">
-    
-    <!-- About -->
-    <div style="flex: 1; min-width: 200px;">
-      <h4>About SmartBank</h4>
-      <p>SmartBank is your trusted partner for secure, reliable, and customer-friendly banking services. Join us and manage your finances with ease.</p>
-    </div>
-
-    <!-- Quick Links -->
-    <div style="flex: 1; min-width: 150px;">
-      <h4>Quick Links</h4>
-      <ul style="list-style: none; padding: 0;">
-        <li><a href="#home" style="color: white; text-decoration: none;">Home</a></li>
-        <li><a href="#about" style="color: white; text-decoration: none;">About</a></li>
-        <li><a href="#services" style="color: white; text-decoration: none;">Services</a></li>
-        <li><a href="#contact" style="color: white; text-decoration: none;">Contact</a></li>
-      </ul>
-    </div>
-
-    <!-- Contact -->
-    <div style="flex: 1; min-width: 200px;">
-      <h4>Contact Us</h4>
-      <p>Email: support@smartbank.com</p>
-      <p>Phone: +91 12345 67890</p>
-      <p>Address: 123 Bank Street, City, Country</p>
-    </div>
-
-    <!-- Social -->
-    <div style="flex: 1; min-width: 150px;">
-      <h4>Follow Us</h4>
-      <div style="display: flex; gap: 10px;">
-        <a href="#" style="color: white; font-size: 20px;">&#x1F426;</a> <!-- placeholder icon -->
-        <a href="#" style="color: white; font-size: 20px;">&#x1F4F1;</a>
-        <a href="#" style="color: white; font-size: 20px;">&#x1F4F7;</a>
-      </div>
-    </div>
-
-  </div>
-
-  <div style="text-align: center; margin-top: 30px; font-size: 14px; color: #cccccc;">
-    &copy; 2025 SmartBank. All Rights Reserved.
-  </div>
-</footer>
+      <!-- Business Section End -->
 
 
-<!-- jQuery (Owl Carousel) -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-<!-- Owl Carousel JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <!--NRI banking-->
+      <section class="pt-0 pb-5 "
+        style="background-image: url(img/nri\ banking.png); background-repeat: no-repeat;background-position: relative; background-size: cover;">
+        <div class="container">
+          <div class="row align-items-center d-flex flex-column flex-lg-row">
+            <div class="col-lg-6 text-start " style="margin-top:90px; ">
+              <h4 style="color:rgb(142, 140, 138);" id="nir-banking">NRI Banking</h4>
+              <h1 id="nir-second-heading">World-class banking for global achievers​​​</h1>
+              <p style=" font-family:Carter One; font-size:19px;">Keep your money secure in an Indian account and
+                transact safely</p>
+            </div>
+            <div>
+            </div>
+            <!--card -->
+            <div class="row mt-4">
+              <div class="col-lg-4">
+                <div class="card click-scale">
+                  <img src="img/nir banking.svg" alt="nir banking" class="mx-auto d-block mt-3" height="60px">
+                  <div class="card-body">
+                    <h6 class="card-title text-center fs-5"><b>NRE/NRO Savings Accounts</b></h6>
+                    <p class="card-text text-center" style="font-size: 14px;"> Save and mange funds earned in india or
+                      aboard while enjoying good returns</p>
+                    <div class="justify-content-center d-flex gap-3">
+                      <a href="#" class="card-btn click-scale"
+                        style="background-color:#1a49a0;color:white; text-decoration:none; padding:6px;border-radius:5px; font-size: 13px;">Apply
+                        now</a>
+                      <a href="#" class="second-card click-scale"
+                        style="color:#0b2654; border: 2px solid #0b2654; text-decoration:none; padding:3px; border-radius:5px; font-size:15px;">
+                        View detaills</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!---card 2-->
+              <div class="col-lg-4">
+                <div class="card click-scale">
+                  <img src="img/nir banking 2.svg" alt="nir banking" class="mx-auto d-block mt-3" height="60px">
+                  <div class="card-body">
+                    <h6 class="card-title text-center fs-5"><b>Foreign Currency​</b></h6>
+                    <p class="card-text text-center" style="font-size: 14px;"> WE have you to grow your
+                      deposites-USD,GBP or Euro</p>
+                    <div class="justify-content-center d-flex gap-3">
+                      <a href="#" class="card-btn click-scale"
+                        style="background-color:#1a49a0;color:white; text-decoration:none; padding:6px;border-radius:5px; font-size: 13px;">Apply
+                        now</a>
+                      <a href="#" class="second-card click-scale"
+                        style="color:#0b2654; border: 2px solid #0b2654; text-decoration:none; padding:3px; border-radius:5px; font-size:15px;">
+                        View detaills</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--card 3-->
+              <div class="col-lg-4 click-scale">
+                <div class="card">
+                  <img src="img/nir banking 2.svg" alt="nir banking" class="mx-auto d-block mt-3" height="60px">
+                  <div class="card-body">
+                    <h6 class="card-title text-center fs-5"><b>Remittance (through Bank)</b></h6>
+                    <p class="card-text " style="font-size:14px;"> send home happiness with just a few clicks from
+                      anywhere in the world</p>
+                    <div class="justify-content-center d-flex gap-3">
 
-  <!--AOS link-->
-  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <!--bootstrap link-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"></script>
+                      <a href="#" class="second-card click-scale"
+                        style="color:#0b2654; border: 2px solid #0b2654; text-decoration:none; padding:3px; border-radius:5px; font-size:15px;">
+                        View detaills</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--card end-->
+              <!--last line-->
+              <p class="mt-2" style="font-family:Carter One; color:#0b2654; border-left:3px solid red;">View all
+                personal
+                offerings <i class="bi bi-arrow-right"></i></p>
+
+            </div>
+      </section>
+
+
+
+      <!--cybersecurity awarness -->
+      <section class="py-5 mt-5">
+        <div class="container">
+          <div class="text-center">
+            <h1 style="color:#0a2a66; border-bottom: 1px solid black; padding:9px; display:inline-block; ">Cybersecurity
+              awarness
+              Month: Stay Safe Online</h1>
+            <p style="font-size: 29px; color:#0a2a66;font-family:Carter One;">Four Action to guid your digital world</p>
+          </div>
+          <div class="row align-items-center d-flex flex-column flex-lg-row ">
+            <div class="col-lg-6 mb-4 shadow-sm click-scale" style="max-width: 540px;">
+              <div class="row ">
+                <div class="col-md-4">
+                  <div class="icon-box">
+                    <i class="fa-solid fa-lock"></i>
+                  </div>
+                </div>
+                <!--card body-->
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="mt-3"> Use strong password <br> And a password manager</h5>
+
+                  </div>
+                </div>
+              </div>
+              <!--card 2-->
+              <div class="card mb-4 mt-5 shadow-sm click-scale" style="border:none;">
+                <div class="row g-0 ">
+                  <div class="col-md-4">
+                    <div class="icon-box">
+                      <i class="fa-solid fa-user-shield"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title mt-1">turn on multi-factor<br>authentication</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--card 3-->
+              <div class="card mb-4 mt-5 shadow-sm click-scale" style="border:none;">
+                <div class="row g-0 ">
+                  <div class="col-md-4">
+                    <div class="icon-box">
+                      <i class="fa-solid fa-eye"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title mt-1">Recognise and <br>report scams </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <!--right side-->
+            <div class="col-lg-6">
+              <!-- Card 4 -->
+              <div class="card mb-4 shadow-sm click-scale" style="border:none;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <div class="icon-box">
+                      <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title mt-3">Keep software <br>up to date</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 5 -->
+              <div class="card mb-4 shadow-sm click-scale" style="border:none;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <div class="icon-box">
+                      <i class="fa-solid fa-key"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title mt-3">Use unique <br>passwords for accounts</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 6 -->
+              <div class="card mb-4 shadow-sm click-scale" style="border:none;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <div class="icon-box">
+                      <i class="fa-solid fa-bullhorn"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title mt-3">Report suspicious <br>activity</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--cyber security sub div-->
+      <section class="py-5 " style="background-color:black;">
+        <div class="container">
+          <div class="row justify-content-center d-flex flex-column flex-lg-row">
+            <div class="col-lg-6 text-start " style="color:white;">
+              <h1>Beware of <span style="color:#6e95df;">Money</span> Mule scams.</h1>
+              <p class="fs-5">Fraudsters use fake job offers, false investment traps and incentives to operate your bank
+                account and
+                lure you into becoming a money mule.
+              </p>
+              <p class="fs-5">In case of cybercrime or fraud, visit <span style="color:#1d55bd">cybercrime.gov.in</span>
+                or call 1930.
+              </p>
+              <div class="click-scale text-start mt-4">
+                <a href="cyber security.html" id="click-scale"
+                  style="text-decoration: none; background-color:#112f66;  color:white; border-radius: 10px; padding:8px;">Learn
+                  more</a>
+
+              </div>
+            </div>
+            <div class="col-lg-6 text-end">
+              <img src="img/hacker.jpg" alt="cyber security" height="300px" width="auto">
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!---some more imformation-->
+      <section class="py-5 mt-3">
+        <div class="container">
+          <div class="text-center" style="color:#0a2a66;">
+            <h3>Some more imformation </h3>
+          </div>
+          <div class="row d-flex text-align-center flex-column flex-lg-row mt-5">
+            <div class="col-lg-4 click-scale">
+              <div class="card">
+                <img src="img/last image.png" alt="nir banking" class="mx-auto d-block mt-3" height="60px">
+                <div class="card-body">
+                  <h6 class="card-title text-center fs-5"><b>A bank that cares</b></h6>
+                  <p class="card-text text-center " style="font-size:14px;"> Bandhan Bank offers more than banking. We listen to your needs</p>
+                  <div class="justify-content-center d-flex gap-3">
+
+                    <a href="#" class="second-card click-scale"
+                      style="background-color:#0b2654; color:white; text-decoration:none; padding:3px; border-radius:5px; font-size:15px;">
+                      Learn more about us</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--card 2-->
+            <div class="col-lg-4 click-scale">
+              <div class="card">
+                <img src="img/last image2.png" alt="nir banking" class="mx-auto d-block mt-3" height="60px">
+                <div class="card-body">
+                  <h6 class="card-title text-center fs-5"><b>Lodge a complaint</b></h6>
+                  <p class="card-text  text-center" style="font-size:14px;"> If you are not satisfied with our service,<br> share your complaint with us. .</p>
+                  <div class="justify-content-center d-flex gap-3">
+
+                    <a href="#" class="second-card click-scale"
+                      style="color:#0b2654; border: 2px solid #0b2654; text-decoration:none; padding:3px; border-radius:5px; font-size:15px;">
+                      Click here</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--card 3-->
+            <div class="col-lg-4 click-scale">
+              <div class="card">
+                <img src="img/nir banking 2.svg" alt="nir banking" class="mx-auto d-block mt-3" height="60px">
+                <div class="card-body">
+                  <h6 class="card-title text-center fs-5"><b>Get in touch</b></h6>
+                  <p class="card-text text-center " style="font-size:14px;"> send home happiness with just a few clicks from
+                    anywhere in the world</p>
+                  <div class="justify-content-center d-flex gap-3">
+
+                    <a href="#" class="second-card click-scale"
+                      style="color:#0b2654; border: 2px solid #0b2654; text-decoration:none; padding:3px; border-radius:5px; font-size:15px;">
+                      View detaills</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--reviews section-->
+      <section id="reviews" class="py-5 bg-light" style="background-color:#f8f9fa; margin-right:auto;">
+        <div class="container ">
+          <h2 class="text-center mb-5 " style="color:#0a2a66; font-weight: 600;font-family: Poppins,sans-serif;">What
+            our
+            customers say</h2>
+          <div class="justify-content-center gap-2">
+            <!--reivew card-->
+            <div class="row row-cols-1 row-cols-md-3 g-4 rounded">
+              <div class="col-md-4">
+                <div class="card h-20 text-center shadow-sm  rounded card">
+                  <img src="img/review2.jpg" class="card-img-top mx-auto mt-3" alt="Customer 1"
+                    style="height: 220px;width:160px;border-radius: 20px;">
+                  <div class="card-body">
+                    <p class="card-text">I got a loan approved within hours! Aarthvini bank really cares about its
+                      customers."
+                    </p>
+                    <h6 class="card-subtitle mt-3 mb-0" style="color:#0a2a66;"> Payal patel</h6>
+                  </div>
+                </div>
+              </div>
+              <!--review 2-->
+              <div class="col-md-4">
+                <div class="card h-20 text-center shadow-sm p-3 rounded">
+                  <img src="img/review4.jpg" class="card-img-top  mx-auto mt-3" alt="Customer 1"
+                    style="width:160px;height:190px; border-radius: 20px;">
+                  <div class="card-body">
+                    <p class="card-text">""Aarthvini makes managing my finances so easy! I love their mobile app.</p>
+                    <h6 class="card-subtitle mt-3 mb-0" style="color:#0a2a66;">John Doe</h6>
+                  </div>
+                </div>
+              </div>
+              <!--review 3-->
+              <div class="col-md-4">
+                <div class="card h-20 text-center shadow-sm p-3 rounded">
+                  <img src="img/review1.jpg" class="card-img-top  mx-auto mt-3" alt="Customer 1"
+                    style="width:170px;height:190px;border-radius:20px;">
+                  <div class="card-body">
+                    <p class="card-text">""The customer service is top-notch. Highly recommended!"</p>
+                    <h6 class="card-subtitle mt-3 mb-0" style="color:#0a2a66;">Sunita sai</h6>
+                  </div>
+                </div>
+              </div>
+              <!--review card end-->
+            </div>
+          </div>
+      </section>
+
+      <!-- Footer Section  start-->
+      <footer style="background-color: #0b2654; color: white; padding: 40px 0;">
+        <div class="container" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;">
+
+          <!-- About -->
+          <div style="flex: 1; min-width: 200px;">
+            <h4>About Aarthvini bank</h4>
+            <p>Aarthvini bank is your trusted partner for secure, reliable, and customer-friendly banking services. Join
+              us
+              and
+              manage your finances with ease.</p>
+          </div>
+
+          <!-- Quick Links -->
+          <div style="flex: 1; min-width: 150px;">
+            <h4>Quick Links</h4>
+            <ul style="list-style: none; padding: 0;">
+              <li><a href="#home" style="color: white; text-decoration: none;">Home</a></li>
+              <li><a href="#about" style="color: white; text-decoration: none;">About</a></li>
+              <li><a href="#services" style="color: white; text-decoration: none;">Services</a></li>
+              <li><a href="#contact" style="color: white; text-decoration: none;">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div style="flex: 1; min-width: 200px;">
+            <h4>Contact Us</h4>
+            <p>Email: support@Aarthvinibank.com</p>
+            <p>Phone: +91 12345 67890</p>
+            <p>Address: 123 Bank Street, City, Country</p>
+          </div>
+
+          <!-- Social -->
+          <div style="flex: 1; min-width: 150px;">
+            <h4>Follow Us</h4>
+            <div style="display: flex; gap: 10px;">
+              <a href="#" style="color: white; font-size: 20px;">&#x1F426;</a> <!-- placeholder icon -->
+              <a href="#" style="color: white; font-size: 20px;">&#x1F4F1;</a>
+              <a href="#" style="color: white; font-size: 20px;">&#x1F4F7;</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div style="text-align: center; margin-top: 30px; font-size: 14px; color: #cccccc;">
+          &copy; 2025 SmartBank. All Rights Reserved.
+        </div>
+      </footer>
+
+
+      <!-- jQuery (Owl Carousel) -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+      <!-- Owl Carousel JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <script>
+        $('.owl-carousel').owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          responsive: {
+            0: {
+              items: 1
+            },
+
+
+          }
+        })
+      </script>
+      <!--AOS link-->
+      <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+      <!--bootstrap link-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+      </script>
+      <!--js script-->
 
 </body>
 
